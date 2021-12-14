@@ -1,0 +1,150 @@
+body{
+	padding: 1rem;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+}
+
+.navbar-brand
+{
+    font-family: 'Itim', cursive;
+}
+
+.Into
+{
+	background-image: url(images/Img);
+}
+
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.question-container{
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	/* background-color: #EAEAEA; */
+	font-size: x-large;
+	text-align: center;
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	/* background-color: #F7F7F7; */
+		
+}
+.option{	
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	/* background-color: #EEEEEE; */
+	border-radius: 25%;
+}
+.option:hover{
+	background-color: #CDF2CA;
+}
+.navigation{
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	/* background-color:#c7dddf; */
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+.evaluate{
+	
+	background-color: #77D970;
+}
+
+.evaluate:hover
+{
+    transition: 1s;
+    box-shadow: 0.3em 0.2em #F9F9F9 ;
+}
+.next{
+	color: black;
+	background-color: #FFF8E5;
+}
+
+.copyright
+{
+    padding: 1rem;
+    text-align: center;
+    background-color: #ff01;
+}
+
+
+/* CSS */
+.option {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.option:hover,
+.option:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.option:hover {
+  transform: translateY(-1px);
+}
+
+.option:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
